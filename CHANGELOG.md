@@ -1,5 +1,9 @@
 # Enginx Cookbook Changelog
 
+# 1.1.0
+
+- Added zero downtime support through reload
+
 # 1.0.0
 
 BREAKING CHANGES:

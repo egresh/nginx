@@ -21,7 +21,7 @@ platforms:
         - RUN /usr/bin/apt-get update
         - RUN /usr/bin/apt-get -y install net-tools less nginx && /usr/bin/apt-get clean
       ports:
-        - "2222:22"
+        - 9080:80
       hostname: nginx-test
       dns:
         - 8.8.8.8
